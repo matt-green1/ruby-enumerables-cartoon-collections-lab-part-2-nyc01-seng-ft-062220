@@ -22,7 +22,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find{|element| element == 
     (count = 0
     while count < valid_calls.length do
-      puts valid_calls[count]
+      p valid_calls[count]
       count+=1
     end
     )
